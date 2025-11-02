@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Google Colab specific
+.colab/
+*.ipynb_save
+*.ipynb_checkpoints
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+checkpoint
+saved_model/
+logs/
+tensorboard_logs/
+events.out.tfevents*
+
+# PyTorch (if experimenting)
+*.pt
+*.pth
+
+# Data files
+data/
+datasets/
+*.csv
+*.npz
+*.npy
+*.pkl
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache files
+.pytest_cache/
+.cache/
+coverage.xml
+*.cover
+*.log
+
+# Notebook outputs
+*.out
+*.log
+output/
+results/
+
+# Misc
+# If you upload models or experiments manually, ignore them
+experiments/
+models/
+runs/
